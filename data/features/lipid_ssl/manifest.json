@@ -1,0 +1,39 @@
+{
+  "corpus_source": "BioDolphin v1.1 unlabeled SMILES only",
+  "raw_unique_smiles": 2615,
+  "invalid_smiles": 7,
+  "training_smiles": 790,
+  "benchmark_scaffolds_excluded": 243,
+  "scaffold_overlap_with_benchmark": 0,
+  "affinity_labels_used": 0,
+  "base": "DeepChem/ChemBERTa-77M-MLM",
+  "base_revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+  "seed": 7,
+  "fixed_epochs": 3,
+  "lr": 1e-05,
+  "batch_size": 16,
+  "mask_probability": 0.15,
+  "logs": [
+    {
+      "epoch": 1,
+      "training_loss": 0.8737988531589508,
+      "steps": 50
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.8593514943122864,
+      "steps": 50
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.8276959569752216,
+      "steps": 50
+    }
+  ],
+  "pooling": "CLS",
+  "source_sha256": "82f15c8cb1b96aa6a1fd18b710c9f9609ee2dd7b0f4aef67e49b87dcd6ed51a8",
+  "archive_sha256": "1518ad11978de0820f3adea8600ff2c8c19c382a6a83928cf34a7f031a6a61ec",
+  "corpus_sha256": "ea20b918399ad34e686860da299d54158002e4c9e9e26b3c3564db237323caf3",
+  "features_sha256": "eec9587bf7c13de1b54c6070f53c27e0ebaea5b1079b54bee4330aae344ff4ba",
+  "scope": "Continued MLM on a small conservative scaffold-disjoint lipid corpus; not LMSD-scale or a new foundation model"
+}

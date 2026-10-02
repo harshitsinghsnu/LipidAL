@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "runs": 9720,
+  "configurations": 1620,
+  "fits": 48600,
+  "nonconverged_fits": 23,
+  "seeds": [
+    7,
+    19,
+    42,
+    73,
+    101,
+    137
+  ],
+  "complete_cartesian_product": true,
+  "outer_test_never_acquired": true,
+  "validation_never_acquired": true,
+  "proxy_labels_never_passed_to_selector": true,
+  "validation_only_configuration_selection_verified": true,
+  "maximum_variance_reduction_formula_error": 3.2662674648298307e-15,
+  "paired_test_family": 24,
+  "significance_warning": "Six overlapping repeated holdouts; exploratory p-values, no independent replication or novelty claim",
+  "single_inner_holdout_not_full_nested_kfold": true,
+  "original_5850_runs_unmodified": true
+}

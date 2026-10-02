@@ -1,0 +1,27 @@
+{
+  "sequences": 1099,
+  "sequence_sha256": "3c5c07fbfb8cc26c3ff78214de7f517d48324379d71ebb2e7c42d50806a3c0e7",
+  "source_sha256": "4cf399ca769a05679962d7cff82b9873ea14c219d93063a79bd8224e16ba4cc0",
+  "models": {
+    "esm2_8m": {
+      "repository": "facebook/esm2_t6_8M_UR50D",
+      "revision": "c731040fcd8d73dceaa04b0a8e6329b345b0f5df",
+      "weights_sha256": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+      "dimension": 320,
+      "pooling": "Residue mean, BOS/EOS/padding excluded; disjoint <=1000-residue chunks weighted by residue count",
+      "proteins_chunked": 5,
+      "device": "cuda"
+    },
+    "esm2_35m": {
+      "repository": "facebook/esm2_t12_35M_UR50D",
+      "revision": "6fbf070e65b0b7291e7bbcd451118c216cff79d8",
+      "weights_sha256": "e35647818e0e064351d4531ed480d225a002567b4b2b93ad3a9246d753150fc0",
+      "dimension": 480,
+      "pooling": "Residue mean, BOS/EOS/padding excluded; disjoint <=1000-residue chunks weighted by residue count",
+      "proteins_chunked": 5,
+      "device": "cuda"
+    }
+  },
+  "no_affinity_training": true,
+  "features_sha256": "3e9d85e6de914eb9ae26ab3222ea6f31c3abd00a0b3522be10619c3921c37136"
+}

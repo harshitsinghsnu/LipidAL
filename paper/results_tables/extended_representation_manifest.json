@@ -1,0 +1,35 @@
+{
+  "models": {
+    "chemberta_mlm": {
+      "representation": "chemberta_mlm",
+      "model": "DeepChem/ChemBERTa-77M-MLM",
+      "revision": "ed8a5374f2024ec8da53760af91a33fb8f6a15ff",
+      "dimension": 384,
+      "pooling": "CLS",
+      "stereochemistry_removed": false,
+      "max_tokens": 156,
+      "beyond_pretraining_length": 0,
+      "truncated": 0,
+      "device": "cuda"
+    },
+    "molformer": {
+      "representation": "molformer",
+      "model": "ibm-research/MoLFormer-XL-both-10pct",
+      "revision": "361063d0ad524ef77cf39b08469f6be770dc550f",
+      "dimension": 768,
+      "pooling": "masked mean",
+      "stereochemistry_removed": true,
+      "max_tokens": 154,
+      "beyond_pretraining_length": 0,
+      "truncated": 0,
+      "device": "cuda"
+    }
+  },
+  "base_features_sha256": "bdfec6be4e3fd9ffd1869b1bbcbdabe4caea743b6c0cdcab73b9e403fa16e98d",
+  "features_sha256": "a2449ee7778cc70435ca46235a46d798ec47bdf4d3dc7539cda848de1af572b8",
+  "encoder_sha256": "4b80284c577d01e9cebd2ae1b19d2ce87d1dd5490b572a4fbc8e3166672101e6",
+  "model_code_sha256": {
+    "configuration_molformer.py": "b88ea8d4b7b5e54f4f186cc7a230eff308928020a030f153a038fd12c05e3bed",
+    "modeling_molformer.py": "6f1ef72022de2c69e95661899422a7bb39a40a2cc5a6cb6216f14e9b7d84559c"
+  }
+}

@@ -1,0 +1,2 @@
+# Preserve exact bytes: experiment provenance hashes are byte-sensitive.
+* -text

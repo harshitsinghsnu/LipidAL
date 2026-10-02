@@ -1,0 +1,11 @@
+bit,mean_abs_shap,frequency_pairs,frequency_unique_lipids,prevalence,combined_score,representative_row,representative_pK,representative_fragment,affinity_source
+539,3.966399096786476e-06,9,9,0.5625,2.231099491942393e-06,0,5.537103099711999,C/C=C\CCCCCC,"all measured rows, retrospective only; may include held-out rows"
+918,3.966399096786476e-06,9,9,0.5625,2.231099491942393e-06,0,5.537103099711999,CCC/C=C\CCCC,"all measured rows, retrospective only; may include held-out rows"
+1111,3.966399096786476e-06,9,9,0.5625,2.231099491942393e-06,0,5.537103099711999,CC/C=C\CCC,"all measured rows, retrospective only; may include held-out rows"
+1789,3.966399096786476e-06,9,9,0.5625,2.231099491942393e-06,0,5.537103099711999,CC/C=C\CCCCC,"all measured rows, retrospective only; may include held-out rows"
+2229,3.966399096786476e-06,9,9,0.5625,2.231099491942393e-06,0,5.537103099711999,CCCCCCCCC,"all measured rows, retrospective only; may include held-out rows"
+3778,3.966399096786476e-06,9,9,0.5625,2.231099491942393e-06,0,5.537103099711999,CCCCCCCCC,"all measured rows, retrospective only; may include held-out rows"
+13,3.933437586450758e-06,8,8,0.5,1.966718793225379e-06,9,5.203888420676617,CCO,"all measured rows, retrospective only; may include held-out rows"
+172,4.094134743356195e-06,5,5,0.3125,1.2794171072988109e-06,0,5.537103099711999,CCOP(=O)(O)O,"all measured rows, retrospective only; may include held-out rows"
+2343,4.094134743356195e-06,5,5,0.3125,1.2794171072988109e-06,0,5.537103099711999,COP(=O)(O)O,"all measured rows, retrospective only; may include held-out rows"
+3867,4.094134743356195e-06,5,5,0.3125,1.2794171072988109e-06,0,5.537103099711999,O=P(O)(O)O,"all measured rows, retrospective only; may include held-out rows"

@@ -1,0 +1,12 @@
+{
+  "source_figures": 223,
+  "atlas_pages": 45,
+  "all_source_hashes_match": true,
+  "panels_per_main_figure": 4,
+  "atlas_panels_all_4_or_5": true,
+  "template_url": "https://www.acml-conf.org/2026/downloads/ACML_camera_ready.zip",
+  "class_sha256": "56d600a80832cf919d379295e15ff5a7b754ddbb61c54a12678b33d47e5ac1fd",
+  "main_pages": 15,
+  "main_pdf": "main_expanded.pdf",
+  "within_16_page_limit": true
+}

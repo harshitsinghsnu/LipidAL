@@ -1,0 +1,316 @@
+{
+  "config": {
+    "dataset": "biodolphin_Ki",
+    "representation": "maccs",
+    "kernel": "rbf",
+    "protocol": "thompson",
+    "seed": 42
+  },
+  "selection_roles": [
+    "thompson"
+  ],
+  "background_indices": [
+    407,
+    332,
+    277,
+    200,
+    153,
+    174,
+    203,
+    207
+  ],
+  "explained_indices": [
+    0,
+    132,
+    159,
+    496,
+    540,
+    341,
+    271,
+    208
+  ],
+  "groups": [
+    {
+      "name": "MACCS bit 113",
+      "lipid_dimensions": [
+        113
+      ]
+    },
+    {
+      "name": "MACCS bit 89",
+      "lipid_dimensions": [
+        89
+      ]
+    },
+    {
+      "name": "MACCS bit 66",
+      "lipid_dimensions": [
+        66
+      ]
+    },
+    {
+      "name": "MACCS bit 90",
+      "lipid_dimensions": [
+        90
+      ]
+    },
+    {
+      "name": "MACCS bit 137",
+      "lipid_dimensions": [
+        137
+      ]
+    },
+    {
+      "name": "MACCS bit 99",
+      "lipid_dimensions": [
+        99
+      ]
+    },
+    {
+      "name": "MACCS bit 96",
+      "lipid_dimensions": [
+        96
+      ]
+    },
+    {
+      "name": "MACCS bit 136",
+      "lipid_dimensions": [
+        136
+      ]
+    },
+    {
+      "name": "MACCS bit 153",
+      "lipid_dimensions": [
+        153
+      ]
+    },
+    {
+      "name": "MACCS bit 140",
+      "lipid_dimensions": [
+        140
+      ]
+    },
+    {
+      "name": "MACCS bit 108",
+      "lipid_dimensions": [
+        108
+      ]
+    },
+    {
+      "name": "MACCS bit 104",
+      "lipid_dimensions": [
+        104
+      ]
+    },
+    {
+      "name": "MACCS bit 155",
+      "lipid_dimensions": [
+        155
+      ]
+    },
+    {
+      "name": "MACCS bit 125",
+      "lipid_dimensions": [
+        125
+      ]
+    },
+    {
+      "name": "MACCS bit 141",
+      "lipid_dimensions": [
+        141
+      ]
+    },
+    {
+      "name": "MACCS bit 50",
+      "lipid_dimensions": [
+        50
+      ]
+    },
+    {
+      "name": "MACCS bit 76",
+      "lipid_dimensions": [
+        76
+      ]
+    },
+    {
+      "name": "MACCS bit 123",
+      "lipid_dimensions": [
+        123
+      ]
+    },
+    {
+      "name": "MACCS bit 149",
+      "lipid_dimensions": [
+        149
+      ]
+    },
+    {
+      "name": "MACCS bit 57",
+      "lipid_dimensions": [
+        57
+      ]
+    },
+    {
+      "name": "Remaining lipid bits (joint)",
+      "lipid_dimensions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        92,
+        93,
+        94,
+        95,
+        97,
+        98,
+        100,
+        101,
+        102,
+        103,
+        105,
+        106,
+        107,
+        109,
+        110,
+        111,
+        112,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        124,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        138,
+        139,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        150,
+        151,
+        152,
+        154,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166
+      ]
+    }
+  ],
+  "protein_group": "all 26 descriptors jointly; not residue attribution",
+  "prediction_restore_max_error": 2.184918912462308e-13,
+  "observation_sd_restore_max_error": 1.73749903353837e-14,
+  "max_additivity_error": 9.059419880941277e-14,
+  "permutations_per_repeat": 8,
+  "repeats": 2,
+  "repeat_mean_abs_difference_pK": 0.0014276675993122377,
+  "source_checkpoint": "results\\full_grid\\runs\\biodolphin_Ki\\maccs\\rbf\\thompson\\seed42.json",
+  "checkpoint_sha256": "f40f8a72a15e06414d68342ad634d456bb8d2079d781625546d8762c97e2835f",
+  "experiment_signature": "c6858cc24faf8348a9b1498517f484d3d82bb5dd1b7f9212bd865e1630f210bc"
+}

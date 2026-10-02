@@ -1,0 +1,3 @@
+dataset,pairs,multiple_source_annotations,nonzero_pK_range,maximum_pK_range,mean_pK_range,warning
+biodolphin_Kd,864,204,13,3.1223797320691133,0.00911943444337411,Source counts need not be independent assays; zero range does not establish zero measurement noise. No assay-noise correction is claimed.
+biodolphin_Ki,549,131,1,0.10074888199309662,0.0001835134462533636,Source counts need not be independent assays; zero range does not establish zero measurement noise. No assay-noise correction is claimed.

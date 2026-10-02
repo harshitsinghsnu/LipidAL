@@ -1,0 +1,6 @@
+-r requirements.txt
+playwright
+pymupdf
+reportlab
+svglib
+parasail==1.3.4

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "comparisons": 1944,
+  "reused_frozen_baselines": 648,
+  "new_campaigns": 1296,
+  "adapter_fits": 36,
+  "adapter_labels_per_fit": 24,
+  "adapter_initial_only_verified": true,
+  "validation_only_kernel_selection_verified": true,
+  "ssl_training_molecules": 790,
+  "ssl_benchmark_scaffold_overlap": 0,
+  "all_features_frozen_before_acquisition": true,
+  "nonconverged_fit_count_including_reused": 6
+}

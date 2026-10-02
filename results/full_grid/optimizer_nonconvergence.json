@@ -1,0 +1,125 @@
+[
+  {
+    "dataset": "biodolphin_Ki",
+    "representation": "ecfp",
+    "kernel": "rq",
+    "protocol": "ucb_sandwich",
+    "seed": 19,
+    "round": 3,
+    "nll": 54.82423521773687,
+    "initial_nll": 2132.2892359681764,
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "iterations": 60,
+    "params": {
+      "log_signal": 0.6699528392703995,
+      "log_noise": -6.002753272700731,
+      "mean": -0.5112863339030321,
+      "log_lipid_length": -0.7462621426345853,
+      "log_rq_alpha": -2.4124551538752024,
+      "log_protein_length": 1.367778013040365
+    }
+  },
+  {
+    "dataset": "biodolphin_Ki",
+    "representation": "maccs",
+    "kernel": "rbf",
+    "protocol": "thompson",
+    "seed": 19,
+    "round": 1,
+    "nll": 49.975468827441986,
+    "initial_nll": 2204.5039743127704,
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "iterations": 60,
+    "params": {
+      "log_signal": -0.10945781105561796,
+      "log_noise": -5.311710977319246,
+      "mean": -0.37499226545051284,
+      "log_lipid_length": -0.46141094825620554,
+      "log_protein_length": 0.31629720404731904
+    }
+  },
+  {
+    "dataset": "biodolphin_Ki",
+    "representation": "maccs",
+    "kernel": "matern32",
+    "protocol": "thompson",
+    "seed": 19,
+    "round": 1,
+    "nll": 56.00957982532191,
+    "initial_nll": 2164.893308880383,
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "iterations": 60,
+    "params": {
+      "log_signal": -0.02542849044573553,
+      "log_noise": -4.907815102642633,
+      "mean": -0.7926363414699342,
+      "log_lipid_length": -5.0,
+      "log_protein_length": 0.19008592606560715
+    }
+  },
+  {
+    "dataset": "biodolphin_Ki",
+    "representation": "chemberta",
+    "kernel": "rbf",
+    "protocol": "thompson",
+    "seed": 7,
+    "round": 1,
+    "nll": 49.787382186473494,
+    "initial_nll": 2304.4382149447965,
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "iterations": 60,
+    "params": {
+      "log_signal": -0.19427882636310692,
+      "log_noise": -5.294377916135111,
+      "mean": -0.30520111861543414,
+      "log_lipid_length": -0.5639002134477388,
+      "log_protein_length": 0.2654310297342843
+    }
+  },
+  {
+    "dataset": "biodolphin_Ki",
+    "representation": "chemberta",
+    "kernel": "rq",
+    "protocol": "thompson",
+    "seed": 7,
+    "round": 1,
+    "nll": 49.77558649909112,
+    "initial_nll": 2304.4032354049345,
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "iterations": 60,
+    "params": {
+      "log_signal": -0.19401474356251713,
+      "log_noise": -5.296242740088333,
+      "mean": -0.2913631944612371,
+      "log_lipid_length": -0.5971822474295553,
+      "log_rq_alpha": 1.4751339064714017,
+      "log_protein_length": 0.2628838545763823
+    }
+  },
+  {
+    "dataset": "biodolphin_Ki",
+    "representation": "chemberta",
+    "kernel": "rq",
+    "protocol": "thompson",
+    "seed": 19,
+    "round": 1,
+    "nll": 44.94100759132818,
+    "initial_nll": 2208.379831976307,
+    "success": false,
+    "message": "STOP: TOTAL NO. of ITERATIONS REACHED LIMIT",
+    "iterations": 60,
+    "params": {
+      "log_signal": -0.21270255810299568,
+      "log_noise": -5.409646301055423,
+      "mean": -0.5427256159561017,
+      "log_lipid_length": -0.9141331555426481,
+      "log_rq_alpha": -1.3103272128946108,
+      "log_protein_length": 0.5262552520775079
+    }
+  }
+]

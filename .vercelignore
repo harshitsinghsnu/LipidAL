@@ -1,0 +1,13 @@
+.git/
+.vercel/
+paper/
+results/
+data/
+web/
+*.py
+*.md
+requirements*.txt
+__pycache__/
+ui_test_tools/
+study_tools/
+.env*

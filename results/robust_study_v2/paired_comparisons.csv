@@ -1,0 +1,25 @@
+dataset,split,baseline,metric,n_seeds,mean_difference,sd_difference,p_signflip,interpretation,p_holm
+biodolphin_Kd,random_pair,thompson,test_mae,6,-0.08382207581485285,0.04637995940264693,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75
+biodolphin_Kd,random_pair,thompson,recall_auc,6,-0.07373903508771927,0.10997302678468275,0.21875,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,random_pair,uncertainty,test_mae,6,-0.08177959987274612,0.07824220872608283,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75
+biodolphin_Kd,random_pair,uncertainty,recall_auc,6,0.11024958228905601,0.1235074390214089,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75
+biodolphin_Kd,cold_sequence40,thompson,test_mae,6,-0.1356230710211255,0.26127619169993027,0.25,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,cold_sequence40,thompson,recall_auc,6,-0.2029712711050894,0.13407121461106855,0.0625,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,cold_sequence40,uncertainty,test_mae,6,-0.05207831266039523,0.10151728623173363,0.28125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,cold_sequence40,uncertainty,recall_auc,6,0.03100069646826643,0.04846234003892854,0.1875,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,scaffold,thompson,test_mae,6,-0.027168527378412577,0.15722707950837214,0.6875,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,scaffold,thompson,recall_auc,6,-0.10728437033872455,0.12390787586723154,0.125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,scaffold,uncertainty,test_mae,6,-0.09015420270347825,0.16362938126892174,0.375,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Kd,scaffold,uncertainty,recall_auc,6,0.018966292576731426,0.10475682299689511,0.6875,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,random_pair,thompson,test_mae,6,-0.19325238059910987,0.13025982256491694,0.0625,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,random_pair,thompson,recall_auc,6,-0.15040396756405527,0.133153632562245,0.09375,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,random_pair,uncertainty,test_mae,6,-0.1280457054011436,0.12409051969527911,0.09375,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,random_pair,uncertainty,recall_auc,6,0.03304099055195548,0.09408274873972644,0.375,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,cold_sequence40,thompson,test_mae,6,0.009253721944255685,0.4602542444096763,0.9375,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,cold_sequence40,thompson,recall_auc,6,-0.19997801569629928,0.08403783393128189,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75
+biodolphin_Ki,cold_sequence40,uncertainty,test_mae,6,-0.057083862078585956,0.49318946626072463,0.90625,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,cold_sequence40,uncertainty,recall_auc,6,0.0860504458918638,0.046519622326886625,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75
+biodolphin_Ki,scaffold,thompson,test_mae,6,-0.13312411391672388,0.2138370073403325,0.15625,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,scaffold,thompson,recall_auc,6,-0.31518649679074623,0.1509268710333996,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75
+biodolphin_Ki,scaffold,uncertainty,test_mae,6,-0.1295313832174454,0.5347120619588548,0.71875,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,1.0
+biodolphin_Ki,scaffold,uncertainty,recall_auc,6,0.110245198256953,0.06815241638634802,0.03125,Exploratory paired sign-flip; repeated splits overlap and are not independent biological replications,0.75

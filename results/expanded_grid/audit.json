@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "runs": 5850,
+  "configurations": 1950,
+  "representations": [
+    "ecfp",
+    "maccs",
+    "chemberta",
+    "chemberta_mlm",
+    "molformer"
+  ],
+  "kernels": [
+    "tanimoto",
+    "linear",
+    "rbf",
+    "rq",
+    "matern32"
+  ],
+  "protocols": [
+    "random",
+    "ucb_balanced",
+    "ucb_alternate",
+    "ucb_sandwich",
+    "ucb_explore_heavy",
+    "ucb_exploit_heavy",
+    "ucb_gradual",
+    "thompson",
+    "greedy",
+    "uncertainty",
+    "ei",
+    "pi",
+    "thompson_diverse"
+  ],
+  "panels": [
+    "biodolphin_Kd",
+    "biodolphin_Ki",
+    "traak_a_Kd1",
+    "traak_b_Kd1",
+    "biodolphin_Kd_889201f64e9f",
+    "biodolphin_Kd_e1eca46439c9"
+  ],
+  "seeds": [
+    7,
+    19,
+    42
+  ],
+  "total_gp_fits": 48750,
+  "nonconverged_gp_fits": 26,
+  "no_test_acquisition_overlap": true,
+  "software": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.3",
+    "torch": "2.5.0",
+    "transformers": "5.4.0",
+    "rdkit": "2024.3.5",
+    "safetensors": "0.4.5"
+  },
+  "original_splits_and_budgets": true,
+  "source_and_data_hashes_verified": true,
+  "unique_complete_cartesian_product": true
+}

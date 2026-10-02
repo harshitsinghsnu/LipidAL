@@ -1,0 +1,113 @@
+{
+  "records": [
+    {
+      "dataset": "biodolphin_Kd",
+      "row_index": 321,
+      "bit": 1917,
+      "status": "mapped",
+      "source_id": "BD4oas-C-C-2SW1",
+      "pdb_id": "4oas",
+      "protein_chain": "C",
+      "ligand_chain": "C",
+      "ligand_residue": "201",
+      "ccd": "2SW",
+      "template_atoms": 37,
+      "fragment_atoms": 2,
+      "graph_mappings": 24,
+      "mapping_search_capped": false,
+      "fragment_contact_fraction_min": 1.0,
+      "fragment_contact_fraction_max": 1.0,
+      "contact_residues": [
+        "HIS:96",
+        "LYS:94",
+        "VAL:93"
+      ],
+      "all_ligand_contact_fraction": 0.5405405405405406,
+      "distance_cutoff_angstrom": 4.0,
+      "structure_url": "https://files.rcsb.org/download/4OAS.pdb",
+      "structure_sha256": "9052f00c2669e78d09ef50de605a3d411a7cfd39eab076b77246d378b3239e92"
+    },
+    {
+      "dataset": "biodolphin_Kd",
+      "row_index": 321,
+      "bit": 2855,
+      "status": "mapped",
+      "source_id": "BD4oas-C-C-2SW1",
+      "pdb_id": "4oas",
+      "protein_chain": "C",
+      "ligand_chain": "C",
+      "ligand_residue": "201",
+      "ccd": "2SW",
+      "template_atoms": 37,
+      "fragment_atoms": 1,
+      "graph_mappings": 24,
+      "mapping_search_capped": false,
+      "fragment_contact_fraction_min": 1.0,
+      "fragment_contact_fraction_max": 1.0,
+      "contact_residues": [
+        "HIS:96",
+        "LYS:94",
+        "VAL:93"
+      ],
+      "all_ligand_contact_fraction": 0.5405405405405406,
+      "distance_cutoff_angstrom": 4.0,
+      "structure_url": "https://files.rcsb.org/download/4OAS.pdb",
+      "structure_sha256": "9052f00c2669e78d09ef50de605a3d411a7cfd39eab076b77246d378b3239e92"
+    },
+    {
+      "dataset": "biodolphin_Ki",
+      "row_index": 370,
+      "bit": 3067,
+      "status": "mapped",
+      "source_id": "BD6cdj-A-A-GR81",
+      "pdb_id": "6cdj",
+      "protein_chain": "A",
+      "ligand_chain": "A",
+      "ligand_residue": "201",
+      "ccd": "GR8",
+      "template_atoms": 49,
+      "fragment_atoms": 1,
+      "graph_mappings": 16,
+      "mapping_search_capped": false,
+      "fragment_contact_fraction_min": 1.0,
+      "fragment_contact_fraction_max": 1.0,
+      "contact_residues": [
+        "GLY:48"
+      ],
+      "all_ligand_contact_fraction": 0.5102040816326531,
+      "distance_cutoff_angstrom": 4.0,
+      "structure_url": "https://files.rcsb.org/download/6CDJ.pdb",
+      "structure_sha256": "fb213f24198d6d45eae3726aace83d94df2b352e37cb2576fb8ad2dcc8f05262"
+    },
+    {
+      "dataset": "biodolphin_Ki",
+      "row_index": 370,
+      "bit": 2974,
+      "status": "mapped",
+      "source_id": "BD6cdj-A-A-GR81",
+      "pdb_id": "6cdj",
+      "protein_chain": "A",
+      "ligand_chain": "A",
+      "ligand_residue": "201",
+      "ccd": "GR8",
+      "template_atoms": 49,
+      "fragment_atoms": 1,
+      "graph_mappings": 16,
+      "mapping_search_capped": false,
+      "fragment_contact_fraction_min": 1.0,
+      "fragment_contact_fraction_max": 1.0,
+      "contact_residues": [
+        "GLY:48",
+        "GLY:49"
+      ],
+      "all_ligand_contact_fraction": 0.5102040816326531,
+      "distance_cutoff_angstrom": 4.0,
+      "structure_url": "https://files.rcsb.org/download/6CDJ.pdb",
+      "structure_sha256": "fb213f24198d6d45eae3726aace83d94df2b352e37cb2576fb8ad2dcc8f05262"
+    }
+  ],
+  "mapped": 4,
+  "scope": "Four pre-existing affinity-prioritized fragment examples, possibly repeated molecules. Descriptive proximity, not causal attribution or predictive validation.",
+  "atom_mapping": "Full heavy-atom bond-order graph match, ignoring chirality; symmetry mappings retained, not assumed unique",
+  "source_sha256": "8189b83894b3cb1462714b90f3f3449426ed34d044d7fc4283ddd15fdf1554a7"
+}

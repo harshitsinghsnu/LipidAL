@@ -1,0 +1,12 @@
+{
+  "runs": 5850,
+  "configurations": 1950,
+  "main_composites": 7,
+  "panels_per_composite": 4,
+  "screenshot_source": "Local running portal; not a claimed public deployment",
+  "inputs": {
+    "results/expanded_grid/summary.csv": "9d630085f1b32a6159301c0b7ee19f5fe186a7aac5eeefb570fa93ef4b6fb575",
+    "results/expanded_grid/final_by_seed.csv": "412bc1ee20bad1041d49bd92383f0249f120b40ab3d3742b3ec9ff4f1cd7da59",
+    "paper/figures/dashboard/capture.json": "7f0328bab398ca6a52c29c47a51eaa6be52261e22163689b45aa52162928870d"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "signature": "894ed5434d79b2585aeaca793de332ed1dc7857be85d07241b36f30ed3bda001",
+  "version": 1,
+  "source_sha256": "6b20a92ddb88c88942fb8057ce3c6a62baeaae28ee837bfc8697221dc176509d",
+  "robust_manifest_sha256": "2824ffdb2ad981343d2d74097156369ea960e87fd71734320f3506b5efe7003f",
+  "ssl_manifest_sha256": "aafdf268e61be1580638707f4b9a81d77808feabfae9b890cd5ca54de4a0b18a",
+  "ssl_features_sha256": "eec9587bf7c13de1b54c6070f53c27e0ebaea5b1079b54bee4330aae344ff4ba",
+  "variants": [
+    "frozen_mlm",
+    "lipid_ssl",
+    "initial_label_adapter"
+  ],
+  "protein": "esm2_35m",
+  "lipid": "chemberta_mlm",
+  "expected_runs": 1944,
+  "source_hashes": {
+    "grid_gp.py": "a56935ff06b2f883b20986f899308f961fcf1183e7ba3daec4ffabaed30db9c2",
+    "run_robust_study.py": "44c50ec050eb582ee09aeeab7dc145bd79e6acb812503f36b36120b4e03b02ed",
+    "prediction_aware_acquisition.py": "03a4dfaa7770dc2737b5f7260067a881c1852496b1bb7b253194e16c947e1505"
+  }
+}

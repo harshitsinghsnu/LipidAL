@@ -1,0 +1,12 @@
+{
+  "expected_runs": 2160,
+  "completed_runs": 2160,
+  "missing": [],
+  "extra": [],
+  "fitted_models": 18000,
+  "optimizer_converged": 17994,
+  "max_iterations": 60,
+  "split_overlap_checks": "passed",
+  "matching_seed_initialization": "passed",
+  "schedule_and_budget_checks": "passed"
+}

@@ -1,0 +1,24 @@
+<section id="newExplorer"><h2>Explore every new configuration</h2>
+<p><a href="../paper_explainability/index.html">Original benchmark / SHAP / highlighted structures</a> · <a href="../../paper/main_updated.pdf">Full paper</a></p>
+<p id="newCount">9,720 main campaigns; 1,944 adaptation comparisons, including 648 reused baselines.</p>
+<p class="note">This browser exposes every run, including configurations not selected by validation. Do not select a model by its test score. The figures below use validation-only selections.</p>
+<div id="newFilters" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px"></div>
+<div id="newMetrics" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:24px"></div>
+<p id="newAudit"></p><details><summary>All configurations for the selected study, endpoint and split</summary><p>Raw per-seed outcomes; no test-score ranking. Download full CSVs for analysis.</p><div class="scroll" style="max-height:500px"><table id="newTable"></table></div></details>
+<p><a href="final_by_seed.csv">Main per-seed CSV</a> · <a href="../adaptation_study/final_by_seed.csv">Adaptation CSV</a> · <a href="paired_comparisons.csv">Paired tests</a> · <a href="split_audit.csv">Split audit</a></p>
+</section>
+<script>
+(()=>{'use strict';
+const records=__ROBUST_RECORDS__;
+const fields=['study','dataset','split','protein_representation','representation','variant','kernel','protocol','seed'];
+const labels=['Study','Endpoint','Evaluation split','Protein representation','Lipid representation','Adaptation','Kernel','Acquisition policy','Seed'];
+const el=id=>document.getElementById(id), make=(tag,text)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e};
+fields.forEach((key,i)=>{const box=make('div'),label=make('label',labels[i]),select=make('select');select.id='new_'+key;label.htmlFor=select.id;select.style='width:100%;padding:10px;border:1px solid #bccbd8;border-radius:7px;background:white';box.append(label,select);el('newFilters').append(box);select.onchange=()=>refresh(i+1)});
+function refresh(start=0){let choices=records;fields.forEach((key,i)=>{const s=el('new_'+key);if(i>=start){const old=s.value,values=[...new Set(choices.map(r=>String(r[key])))].sort((a,b)=>a.localeCompare(b,undefined,{numeric:true}));s.replaceChildren();values.forEach(v=>{const o=make('option',v.replaceAll('_',' '));o.value=v;s.append(o)});if(values.includes(old))s.value=old}choices=choices.filter(r=>String(r[key])===s.value)});
+const r=choices[0];if(!r)return;el('newMetrics').replaceChildren();[['test_mae','Test MAE (pK)'],['test_r2','Test R²'],['recall_top10','Pool recall'],['recall_auc','Recall AUC'],['validation_mae','Validation MAE']].forEach(([key,label])=>{const b=make('div');b.style='padding:14px;background:#edf6f6;border-radius:9px';b.append(make('strong',r[key].toFixed(3)),make('div',label));el('newMetrics').append(b)});
+el('newAudit').textContent=`${r.labelled} acquired labels; ${r.total_label_cost} total labels including validation. Nonconverged fits: ${r.nonconverged_fits}. Frozen MLM adaptation entries reuse main-study baselines. No prospective evaluation.`;
+const rows=records.filter(x=>x.study===r.study&&x.dataset===r.dataset&&x.split===r.split),table=el('newTable');table.replaceChildren();const keys=['protein_representation','representation','variant','kernel','protocol','seed','test_mae','recall_top10'];const h=make('tr');keys.forEach(k=>h.append(make('th',k.replaceAll('_',' '))));table.append(h);rows.forEach(x=>{const tr=make('tr');keys.forEach(k=>tr.append(make('td',typeof x[k]==='number'&&k!=='seed'?x[k].toFixed(3):x[k])));table.append(tr)});
+}
+refresh();el('new_study').value='Main: 9,720 campaigns';refresh(1);
+})();
+</script>

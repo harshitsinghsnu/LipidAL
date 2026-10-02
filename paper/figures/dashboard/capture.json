@@ -1,0 +1,17 @@
+{
+  "source": "Actual local Flask portal; not a public Vercel deployment",
+  "selected": {
+    "dataset": "biodolphin_Kd",
+    "representation": "chemberta_mlm",
+    "kernel": "matern32",
+    "protocol": "thompson",
+    "seed": 7
+  },
+  "files": {
+    "a_selection.png": "04573b13ced16de0e02fe52545feaab17147d303eb1d97b4cda7cf43d48683cb",
+    "b_curves.png": "2f7746996710e55f7d03f5d4713f16ade613b98d637fb309ff926ae3aebe98f1",
+    "c_comparison.png": "cd37bf24540befb7b3f9bb25fc4b3fd1344b7c682e07d17e0d29388ae91e5c41",
+    "d_campaign.png": "0a2f4b47fce1719db1891e30740e68fd940c9fe88c6c5bbee3d7f2286e3acf50"
+  },
+  "javascript_errors": []
+}

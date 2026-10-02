@@ -1,0 +1,75 @@
+{
+  "signature": "4e7ae6dac2241940fcc852e7cd6c9487229cddf3fabf8e36172b8c66ceb178a5",
+  "version": 2,
+  "protein_geometry_dtype": "float64 before initial standardization and distance calculation",
+  "seeds": [
+    7,
+    19,
+    42,
+    73,
+    101,
+    137
+  ],
+  "protein_representations": [
+    "composition",
+    "esm2_8m",
+    "esm2_35m"
+  ],
+  "lipid_representations": [
+    "ecfp",
+    "maccs",
+    "chemberta",
+    "chemberta_mlm",
+    "molformer"
+  ],
+  "kernels": [
+    "linear",
+    "rbf",
+    "matern32"
+  ],
+  "policies": [
+    "random",
+    "uncertainty",
+    "ucb_balanced",
+    "thompson",
+    "prediction_aware_thompson",
+    "variance_reduction"
+  ],
+  "splits": [
+    "random_pair",
+    "cold_sequence40",
+    "scaffold"
+  ],
+  "datasets": [
+    "biodolphin_Kd",
+    "biodolphin_Ki"
+  ],
+  "initial": 24,
+  "batch": 24,
+  "cycles": 4,
+  "prediction_weight": 0.5,
+  "proxy": "fixed <=64 inner-validation inputs; no proxy labels used in acquisition",
+  "selector": "inner validation MAE only; deterministic lexical ties; no outer-test selection",
+  "validation_cost": "all inner validation labels counted separately from 120 acquisition labels",
+  "source_hashes": {
+    "run_robust_study.py": "44c50ec050eb582ee09aeeab7dc145bd79e6acb812503f36b36120b4e03b02ed",
+    "prediction_aware_acquisition.py": "03a4dfaa7770dc2737b5f7260067a881c1852496b1bb7b253194e16c947e1505",
+    "robust_splits.py": "383a658df1c742cca3867ef715391e14955e064cac95f25d2126c5b1e3714f69",
+    "prepare_protein_encoders.py": "4cf399ca769a05679962d7cff82b9873ea14c219d93063a79bd8224e16ba4cc0",
+    "grid_gp.py": "a56935ff06b2f883b20986f899308f961fcf1183e7ba3daec4ffabaed30db9c2"
+  },
+  "cache_hashes": {
+    "robust_splits.json": "8e6d508d5d1d4a230800ae44e788de74ab12caee6d25cae84a23dccb23a84b3e",
+    "protein_representations.npz": "3e9d85e6de914eb9ae26ab3222ea6f31c3abd00a0b3522be10619c3921c37136",
+    "protein_representation_manifest.json": "0d40f28ebab1bdce932bfa56b0e2f7f124739a616778c691a0d40f6f5bbbd456",
+    "representations.npz": "bdfec6be4e3fd9ffd1869b1bbcbdabe4caea743b6c0cdcab73b9e403fa16e98d",
+    "extended_representations.npz": "a2449ee7778cc70435ca46235a46d798ec47bdf4d3dc7539cda848de1af572b8"
+  },
+  "data_hashes": {
+    "biodolphin_Kd": "b22d9b2849f690235d83e2b220208696b5ede506096df365d58aab3451b937d3",
+    "biodolphin_Ki": "3f0e7c1e06e2c791ac631a426f8ed3b930476d80d06427517a9a4508e9918d08"
+  },
+  "expected_runs": 9720,
+  "python": "3.12.3",
+  "numpy": "1.26.4"
+}

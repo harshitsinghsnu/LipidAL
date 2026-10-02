@@ -1,0 +1,11 @@
+{
+  "source": "Generated read-only dashboard served over local HTTP; not a claim of public hosting",
+  "javascript_errors": [],
+  "mobile_overflow": false,
+  "hashes": {
+    "a_navigation.png": "acc2c305020b24bc195c29ef7306ae35362bd749a53393cb59d0fe047b5446f2",
+    "b_fragments.png": "7cb3daed3488b29c40455ada4c8d96b64f07bda825a6631e9a9dd1a1d8ccb85f",
+    "c_robust.png": "dfb299ef4f73f4f3d9c1a8469352f8ca3f9222af41f9c36e02ca44c6c462ae65",
+    "d_adaptation.png": "9ca27d060314d6600c7be30c0f78283b86a7584aa49cd9e57468c8c33dbf806e"
+  }
+}

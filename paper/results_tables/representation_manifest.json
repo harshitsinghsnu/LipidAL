@@ -1,0 +1,17 @@
+{
+  "smiles_sha256": "8afbb386c5557fd4bd75ebc831c3f8a74d7b46f2ffbb469a0e1c2bc0d67b7e29",
+  "n_lipids": 549,
+  "model": "DeepChem/ChemBERTa-77M-MTR",
+  "revision": "66b895cab8adebea0cb59a8effa66b2020f204ca",
+  "ecfp": {
+    "radius": 4,
+    "bits": 4096,
+    "chirality": false
+  },
+  "maccs_bits": 167,
+  "pooling": "CLS",
+  "max_tokens": 512,
+  "truncated_indices": [],
+  "embedding_dim": 384,
+  "device": "cuda"
+}

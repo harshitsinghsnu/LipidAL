@@ -1,0 +1,74 @@
+{
+  "biodolphin_Kd": {
+    "n_pairs": 864,
+    "initial": 24,
+    "batch": 8,
+    "rounds": 5,
+    "split": "seeded random unique pair; 20% fixed held-out",
+    "seeds": [
+      7,
+      19,
+      42
+    ]
+  },
+  "biodolphin_Ki": {
+    "n_pairs": 549,
+    "initial": 24,
+    "batch": 8,
+    "rounds": 5,
+    "split": "seeded random unique pair; 20% fixed held-out",
+    "seeds": [
+      7,
+      19,
+      42
+    ]
+  },
+  "traak_a_Kd1": {
+    "n_pairs": 16,
+    "initial": 4,
+    "batch": 1,
+    "rounds": 4,
+    "split": "seeded random unique pair; 20% fixed held-out",
+    "seeds": [
+      7,
+      19,
+      42
+    ]
+  },
+  "traak_b_Kd1": {
+    "n_pairs": 16,
+    "initial": 4,
+    "batch": 1,
+    "rounds": 4,
+    "split": "seeded random unique pair; 20% fixed held-out",
+    "seeds": [
+      7,
+      19,
+      42
+    ]
+  },
+  "biodolphin_Kd_889201f64e9f": {
+    "n_pairs": 11,
+    "initial": 4,
+    "batch": 1,
+    "rounds": 4,
+    "split": "seeded random unique pair; 20% fixed held-out",
+    "seeds": [
+      7,
+      19,
+      42
+    ]
+  },
+  "biodolphin_Kd_e1eca46439c9": {
+    "n_pairs": 11,
+    "initial": 4,
+    "batch": 1,
+    "rounds": 4,
+    "split": "seeded random unique pair; 20% fixed held-out",
+    "seeds": [
+      7,
+      19,
+      42
+    ]
+  }
+}

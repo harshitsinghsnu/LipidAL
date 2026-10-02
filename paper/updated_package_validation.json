@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "main_pdf": "main_updated.pdf",
+  "pages": 16,
+  "within_16_pages": true,
+  "unresolved_references": false,
+  "overfull_boxes": false,
+  "original_atlas_figures": 223,
+  "updated_composites": [
+    {
+      "file": "figures/fig1_performance.pdf",
+      "sha256": "6e32ee1331d19e4b4cbd578b7a68627a78b16a4b5b81882b7b7ec58423658efc",
+      "panels": 4
+    },
+    {
+      "file": "figures/fig2_grid.pdf",
+      "sha256": "edb0f45fe4ae7bea4d05091a12940fad7404b04b1ab8481fe6bfc9b56713faf9",
+      "panels": 4
+    },
+    {
+      "file": "figures/fig3_temporal.pdf",
+      "sha256": "dbd32b32f1112229b62efd12fe06655cdb5f3a2899eac6a4101c438f00cc6728",
+      "panels": 4
+    },
+    {
+      "file": "figures/fig4_explanations.pdf",
+      "sha256": "46a5b8b8cc10bbe89b530f1e8b69b758a6062be07a1124e10b7dd97416b6fb78",
+      "panels": 4
+    },
+    {
+      "file": "figures/fig5_fragments.pdf",
+      "sha256": "041bf8d76fb6d46d99c7ecc27e1c18dd688cd4f8f81ab36ca7aaccc25966e43c",
+      "panels": 4
+    },
+    {
+      "file": "figures/fig6_representations.pdf",
+      "sha256": "0f35baa4295eee6787368b155376b1eff7136b59a77e1b2f11521b3cabf9743c",
+      "panels": 4
+    },
+    {
+      "file": "figures/fig7_dashboard.pdf",
+      "sha256": "cfd83601e4c7686aa4fab6bf3b303f8d79a105c1b91aa6dd7dd43d387fea624b",
+      "panels": 4
+    },
+    {
+      "file": "figures/policy_panels.pdf",
+      "sha256": "c1761be7665b03b3ebcaf3e7b2635eb1f5af148c4d2beca254c221b65744decb",
+      "panels": 4
+    },
+    {
+      "file": "figures/protein_panels.pdf",
+      "sha256": "9bdaab25062c3920f4ce5f376ad9676a4100f77e6dc75c262daa8fe177efc045",
+      "panels": 4
+    },
+    {
+      "file": "figures/adaptation_panels.pdf",
+      "sha256": "3ee52618f6273082135d2d30487e63ffbaa7fe82675de4e98db711bcbc135887",
+      "panels": 4
+    },
+    {
+      "file": "figures/updated_dashboard.pdf",
+      "sha256": "e00e7ebded992a1f4f4ef51dc9b1fb0603dfc5a0d14c6edc59f4635080793ee6",
+      "panels": 4
+    },
+    {
+      "file": "figures/explanation_checks.pdf",
+      "sha256": "e2d5cfa2f243b4c2e393e002623904b8df239bc5902a597c6020fd8def6a98bf",
+      "panels": 4
+    }
+  ],
+  "original_results_unmodified": true,
+  "total_unique_new_campaigns": 11016,
+  "adaptation_entries_include_648_reused": true
+}

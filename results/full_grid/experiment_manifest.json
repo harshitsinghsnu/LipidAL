@@ -1,0 +1,61 @@
+{
+  "signature": "c6858cc24faf8348a9b1498517f484d3d82bb5dd1b7f9212bd865e1630f210bc",
+  "version": 1,
+  "seeds": [
+    7,
+    19,
+    42
+  ],
+  "representations": [
+    "ecfp",
+    "maccs",
+    "chemberta"
+  ],
+  "kernels": [
+    "tanimoto",
+    "linear",
+    "rbf",
+    "rq",
+    "matern32"
+  ],
+  "protocols": [
+    "random",
+    "ucb_balanced",
+    "ucb_alternate",
+    "ucb_sandwich",
+    "ucb_explore_heavy",
+    "ucb_exploit_heavy",
+    "ucb_gradual",
+    "thompson"
+  ],
+  "schedules": {
+    "random": "RRRRRRRRRR",
+    "ucb_balanced": "BBBBBBBBBB",
+    "ucb_alternate": "EXEXEXEXEX",
+    "ucb_sandwich": "EEXXXXXXEE",
+    "ucb_explore_heavy": "EEEEEEEXXX",
+    "ucb_exploit_heavy": "XXXXXXXEEE",
+    "ucb_gradual": "EEEBBBBXXX",
+    "thompson": "TTTTTTTTTT"
+  },
+  "maxiter": 60,
+  "optimizer": "L-BFGS-B analytic exact MLL, warm starts",
+  "data_sha256": {
+    "biodolphin_Kd": "b22d9b2849f690235d83e2b220208696b5ede506096df365d58aab3451b937d3",
+    "biodolphin_Ki": "3f0e7c1e06e2c791ac631a426f8ed3b930476d80d06427517a9a4508e9918d08",
+    "traak_a_Kd1": "c4554053963ae0cf4728ebf831b18fc7a096d14d86e9c2e3885f13b2be5d704b",
+    "traak_b_Kd1": "67133483da46e75bc75eb3f573717b779f9f262e819e7e5075877f44b35d2d60",
+    "biodolphin_Kd_889201f64e9f": "5b5709a023e06da9cb54b1c543973b23ba1f620a085410b9a2a652811e6d4013",
+    "biodolphin_Kd_e1eca46439c9": "6f83ad6d34f593f5665cbd7adf188797f0d6566813a27dffe5647abaf13026a0"
+  },
+  "feature_sha256": "bdfec6be4e3fd9ffd1869b1bbcbdabe4caea743b6c0cdcab73b9e403fa16e98d",
+  "engine_sha256": "a56935ff06b2f883b20986f899308f961fcf1183e7ba3daec4ffabaed30db9c2",
+  "runner_sha256": "6b9774a587e3a9ed994d5f1a8f2473b85dc87f361fd9f936b46075648c3775f0",
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "protein_factor": "Matern32 learned length; initial-label standardized composition",
+  "test_fraction": 0.2,
+  "small_budget": "2 initial + 6 queries over 10 scheduled phases",
+  "expected_runs": 2160
+}
