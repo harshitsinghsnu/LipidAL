@@ -3,7 +3,7 @@
 ## Current full study
 
 Use **[main_updated.pdf](main_updated.pdf)** and `main_updated.tex`: the current
-15-page manuscript includes the original 5,850 campaigns, 9,720 leakage-controlled
+16-page manuscript includes the original 5,850 campaigns, 9,720 leakage-controlled
 campaigns and 1,296 additional adaptation campaigns. Eight four-panel figures
 appear in the paper. `updated_composite_supplement.pdf` contains all seven older
 main figures and five new composites; `all_figures_atlas.pdf` retains all 223

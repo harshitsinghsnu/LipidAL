@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "benchmark_runs": 5850,
+  "explanation_reports": 90,
+  "download_links": true,
+  "actual_explanation_image": true,
+  "uploads_disabled": true,
+  "asset_hashes_verified": true,
+  "javascript_errors": [],
+  "robust_campaigns": 9720,
+  "adaptation_comparisons": 1944,
+  "new_dropdowns": true,
+  "highlighted_fragments": true,
+  "manuscript_download": true,
+  "mobile_overflow": false,
+  "public_deployment_verified": false
+}

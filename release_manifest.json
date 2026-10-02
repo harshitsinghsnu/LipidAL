@@ -13,8 +13,8 @@
     },
     {
       "path": ".vercelignore",
-      "bytes": 117,
-      "sha256": "d6cb6030d1ab8b50efca6c504384b0887905ba8f59b5bc56c1a5cb4f2cd47cf2"
+      "bytes": 130,
+      "sha256": "763931c47893f20c722522a6b3d4ab64b36921db2e36b0f6fbaf481dfe2dc064"
     },
     {
       "path": "adapt_lipid_encoder.py",
@@ -75,6 +75,11 @@
       "path": "data/features/representation_manifest.json",
       "bytes": 431,
       "sha256": "3e89834b9acebffda0e2ea93d8b3efbdedf276bc23db13a7832486b2d3a2c4a8"
+    },
+    {
+      "path": "deployment_verification.json",
+      "bytes": 453,
+      "sha256": "c5b3f05c10bc5ea7aa24e669119c260882266cd22af96f190494a617f37a3f69"
     },
     {
       "path": "download_published.py",
@@ -158,8 +163,8 @@
     },
     {
       "path": "paper/deployment_status.tex",
-      "bytes": 336,
-      "sha256": "2aab7477e9f5733790f0d6032f9908fd42fa2680447d3a25653936b84ed249dd"
+      "bytes": 415,
+      "sha256": "507636d5566217c6453849e61dfa4ac7c3d35c35cc72971f8a424f230deafa79"
     },
     {
       "path": "paper/expanded_figure_audit.json",
@@ -368,8 +373,8 @@
     },
     {
       "path": "paper/main_updated.pdf",
-      "bytes": 928148,
-      "sha256": "bbd81eee893f0f59a5e609b9f68e03723ad9a02e51a4593e3b6bd5243195cb47"
+      "bytes": 928378,
+      "sha256": "50581b7092ec6417e949409e4fd32c778ae6cb95d85a5543124913aa786af247"
     },
     {
       "path": "paper/main_updated.tex",
@@ -389,7 +394,7 @@
     {
       "path": "paper/README.md",
       "bytes": 5954,
-      "sha256": "1c6e3af9685e4df33d8ed5a25e2cea1a8eb019f06f30a2e7a21846ee4f914594"
+      "sha256": "d1a2496c2b817560199af56d6c7cc2e2ba0a2df38e930d1449106fef1006fe46"
     },
     {
       "path": "paper/results_tables/audit.json",
@@ -433,8 +438,8 @@
     },
     {
       "path": "paper/updated_composite_supplement.pdf",
-      "bytes": 1089970,
-      "sha256": "3fb9e896fd6744f3b6dcc5c88fae1a6b66a9c5a9332366b280329d5d02c935de"
+      "bytes": 1089969,
+      "sha256": "60973c418c7808130aa493a30e8415ec692b802be8e24acf357cc54cdf8262f2"
     },
     {
       "path": "paper/updated_package_validation.json",
@@ -693,8 +698,8 @@
     },
     {
       "path": "prepare_clean_release.py",
-      "bytes": 4052,
-      "sha256": "7b06fd8f7374e9f863344796c42299a828db37efa433bd19ae4d130cb7ad01a6"
+      "bytes": 4188,
+      "sha256": "3058f6cb5d6a27f3ce9f68705d954d85ab746130ebdef9107dcbe3eec431042f"
     },
     {
       "path": "prepare_grid_features.py",
@@ -723,8 +728,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9677,
-      "sha256": "a8acaaf7150a227e1130d6a2b8ed8614fa0f8a58a6c10884e53b4359e46545d2"
+      "bytes": 9925,
+      "sha256": "7a09cbb51f1a18017b23e06cb0cbd96ec0c5282fc6de4fa7462b82160dddc693"
     },
     {
       "path": "requirements-dev.txt",
@@ -4408,13 +4413,13 @@
     },
     {
       "path": "VERCEL.md",
-      "bytes": 3352,
-      "sha256": "524d5e146aa804b19fd9f3621c48c80da429556a17697aa26df98faf15385bef"
+      "bytes": 4049,
+      "sha256": "be37d9f73e2337792b416afdcb60044c5cc568c782769a4f6068a5cb15fe1c5d"
     },
     {
       "path": "vercel_dashboard/export_manifest.json",
       "bytes": 154172,
-      "sha256": "9d77a8b7b39d4cd2aa0d2e995441579fc7137827c418e383f7eef001c768c263"
+      "sha256": "9e14a1c0e1332b87b34b3b2480a52a7834d9f2fee17870440589b0bbf769e0d0"
     },
     {
       "path": "vercel_dashboard/index.html",
@@ -4428,13 +4433,13 @@
     },
     {
       "path": "vercel_dashboard/paper/main_updated.pdf",
-      "bytes": 928148,
-      "sha256": "bbd81eee893f0f59a5e609b9f68e03723ad9a02e51a4593e3b6bd5243195cb47"
+      "bytes": 928378,
+      "sha256": "50581b7092ec6417e949409e4fd32c778ae6cb95d85a5543124913aa786af247"
     },
     {
       "path": "vercel_dashboard/paper/updated_composite_supplement.pdf",
-      "bytes": 1089970,
-      "sha256": "3fb9e896fd6744f3b6dcc5c88fae1a6b66a9c5a9332366b280329d5d02c935de"
+      "bytes": 1089969,
+      "sha256": "60973c418c7808130aa493a30e8415ec692b802be8e24acf357cc54cdf8262f2"
     },
     {
       "path": "vercel_dashboard/results/adaptation_study/audit.json",
@@ -7760,6 +7765,16 @@
       "path": "vercel_dashboard/vercel.json",
       "bytes": 316,
       "sha256": "ab158d4bc85a39f2b8f066c3335d1d5c16a5716b0fd1863e53ba936fa30bbb50"
+    },
+    {
+      "path": "vercel_export_validation.json",
+      "bytes": 461,
+      "sha256": "3467df44f99c36404fc440c605e3efc67c91a63d965ec37e61397ff5ee52698f"
+    },
+    {
+      "path": "verify_public_deployment.py",
+      "bytes": 3805,
+      "sha256": "3d3e39b2ddd50224389e392c5bb650e563367f92fb3ed9a88935bd081c265230"
     },
     {
       "path": "web/catalog.json",

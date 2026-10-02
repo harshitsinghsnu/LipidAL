@@ -2,6 +2,10 @@
 
 ## Current release
 
+**Live dashboard: [lipidal.vercel.app](https://lipidal.vercel.app)**.
+Open the [new-study explorer](https://lipidal.vercel.app/results/robust_study_v2/index.html)
+or [download the current paper](https://lipidal.vercel.app/paper/main_updated.pdf).
+
 Repository: [harshitsinghsnu/LipidAL](https://github.com/harshitsinghsnu/LipidAL).
 The current full manuscript is [main_updated.pdf](paper/main_updated.pdf),
 with [LaTeX source](paper/main_updated.tex), an

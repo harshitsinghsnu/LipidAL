@@ -26,13 +26,13 @@
     },
     {
       "path": "paper/main_updated.pdf",
-      "sha256": "bbd81eee893f0f59a5e609b9f68e03723ad9a02e51a4593e3b6bd5243195cb47",
-      "bytes": 928148
+      "sha256": "50581b7092ec6417e949409e4fd32c778ae6cb95d85a5543124913aa786af247",
+      "bytes": 928378
     },
     {
       "path": "paper/updated_composite_supplement.pdf",
-      "sha256": "3fb9e896fd6744f3b6dcc5c88fae1a6b66a9c5a9332366b280329d5d02c935de",
-      "bytes": 1089970
+      "sha256": "60973c418c7808130aa493a30e8415ec692b802be8e24acf357cc54cdf8262f2",
+      "bytes": 1089969
     },
     {
       "path": "results/adaptation_study/audit.json",

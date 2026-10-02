@@ -29,6 +29,8 @@ def main():
     # Manifests contain provenance but not sequence arrays or pretrained weights.
     files.update(p.relative_to(ROOT) for p in (ROOT/'data/features').glob('*manifest.json'))
     files.add(Path('data/features/lipid_ssl/manifest.json'))
+    for name in ['deployment_verification.json','vercel_export_validation.json']:
+        if (ROOT/name).exists():files.add(Path(name))
     blocked={'user_runs','__pycache__','node_modules','tex_env','python_tools','ui_test_tools','study_tools','.vercel','raw','processed','runs','adapters'}
     rows=[]
     secret=re.compile(r'gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----|sk-[A-Za-z0-9]{40,}')

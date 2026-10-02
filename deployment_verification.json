@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "url": "https://lipidal.vercel.app/",
+  "authenticated_requests": false,
+  "asset_paths_checked": 667,
+  "manuscript_sha256": "bbd81eee893f0f59a5e609b9f68e03723ad9a02e51a4593e3b6bd5243195cb47",
+  "public_browser_checks": true,
+  "highlighted_structures": true,
+  "new_study_filters": true,
+  "uploads_disabled": true,
+  "mobile_overflow": false,
+  "javascript_errors": [],
+  "timestamp_utc": "2026-10-02T10:51:14Z"
+}

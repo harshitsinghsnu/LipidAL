@@ -1,5 +1,11 @@
 # Read-only Vercel deployment
 
+**Published:** [https://lipidal.vercel.app](https://lipidal.vercel.app), in the
+existing `lipidal` project under the user's Hobby scope. Public verification
+without authentication checked all 667 exported asset paths, the PDF bytes,
+highlighted structures, new-study filters, disabled cloud uploads, and mobile
+layout. See `deployment_verification.json` for the exact verification snapshot.
+
 The public build is a pre-generated, read-only export in `vercel_dashboard/`.
 The root `vercel.json` supports GitHub import with **Root Directory `./`**,
 **Framework Preset Other**, **Output Directory `vercel_dashboard`**, and empty
@@ -31,7 +37,7 @@ python export_vercel_dashboard.py
 python test_vercel_export.py
 ```
 
-The export is approximately 105 MB. `export_manifest.json` inventories and
+The export is approximately 100 MB. `export_manifest.json` inventories and
 hashes the report assets. The validation report is saved outside the export
 as `vercel_export_validation.json`.
 
@@ -41,9 +47,14 @@ For Git deployment of this repository, retain project root **`./`**, Framework
 Preset **Other**, and output directory **`vercel_dashboard`**. The root
 configuration disables dependency installation/building; it publishes only the
 reviewed static export. Alternatively, with an
-authenticated Vercel CLI, run `vercel` from that folder to obtain a preview;
+authenticated Vercel CLI, run `vercel` from the repository root to obtain a preview;
 review it before a production deployment. The local configuration supplies
 basic response headers and does not define Python Functions.
+
+The root-only patterns in `.vercelignore` intentionally start with `/` so
+`/results/` excludes local results but not `vercel_dashboard/results/`.
+Unanchored exclusions would omit public figures. `.vercel/` and `.env*`
+remain private and ignored; never paste tokens into GitHub or the manuscript.
 
 After publishing, verify the actual HTTPS URL, all dropdowns, plot links and
 summary downloads. Only then add that URL to the manuscript and replace its
