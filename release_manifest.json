@@ -79,7 +79,7 @@
     {
       "path": "deployment_verification.json",
       "bytes": 453,
-      "sha256": "c5b3f05c10bc5ea7aa24e669119c260882266cd22af96f190494a617f37a3f69"
+      "sha256": "74852f6a34f9ad0314f735d114ef8c98dd027bfe953ce7dfd7aee4e08e564f15"
     },
     {
       "path": "download_published.py",
